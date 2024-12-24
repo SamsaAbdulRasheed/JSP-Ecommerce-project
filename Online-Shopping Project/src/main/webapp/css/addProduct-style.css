@@ -1,0 +1,114 @@
+body{
+  background-color: #0080FF;
+  
+}
+
+.alert{
+	padding: 15px 0;
+}
+
+.table-container {
+              overflow-x: auto;  
+            margin-bottom: 100px;
+            width: 100%;  
+        }
+
+ table {
+           border-collapse: collapse;
+            width: 100%;       
+            font-size: 15px; 
+            white-space: nowrap; 
+    
+        }
+
+
+table a{
+	color: purple;
+}
+table tr {
+background-color: #f8f8f8;	
+ border: 1px solid #ddd;
+}
+tr:hover {background-color: #F0F8FF;}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  text-transform: uppercase;
+}
+
+
+ .input-style {
+  width: 90%;
+  padding: 10px 10px;
+  margin-left:5%;
+  box-sizing: border-box;
+  border: none;
+  background-color:white;
+  color: black;
+  font-size: 10px;
+}
+ input[type=text]:focus, select:focus,button:focus{
+  outline: 2px solid orange;
+  background-color:rgb(224, 255, 219); 
+}
+h4{
+  	text-align: center;
+	color: #ffff00;
+	padding: 0px 5px;
+	margin: 0;
+}
+
+h3{
+	text-align: center;
+	color: white;
+	font-size: 15px
+}
+
+.left-div
+{
+	width: 50%;
+	display:inline-block;
+	padding-top: 5px;
+	
+}
+
+.right-div
+{
+	float:right;
+	width: 50%;
+	
+}
+hr{
+	width: 90%
+}
+.btn{
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left:5%;
+  font-size: 16px;
+  width: 90%;
+  border-radius: 25px;
+   
+}
+.button{
+	margin-bottom: 100px;
+	
+}
+.btn:hover {
+  background-color: #555555;
+  color: white;
+}
